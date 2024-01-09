@@ -265,4 +265,14 @@ To https://github.com/sudecerenozden/SOFT2101_HW-4/
    b6f25d4..0b7740f  main -> main
 
 STEP o:
+seren@AdaehprI9 MINGW64 ~/SOFT2101_HW-4/hwk4 (main)
+$ git add homework4.txt
 
+seren@hp MINGW64 ~/SOFT2101_HW-4/hwk4 (main)
+$ git commit -m "Last commit"
+[main 535df0f] Last commit
+ 1 file changed, 267 insertions(+)
+
+
+STEP p:
+https://github.com/sudecerenozden/SOFT2101_HW-4
