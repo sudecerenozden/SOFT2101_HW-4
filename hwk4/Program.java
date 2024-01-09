@@ -12,7 +12,9 @@ public class Program {
     int num2 = sc.nextInt();
     
     for (int i= num1+1; i<num2; i++){
-        System.out.print(i+" ");
+        if (i % 2 == 1) {
+          System.out.print(i+" ");
+        }
     }
     sc.close();
  }
