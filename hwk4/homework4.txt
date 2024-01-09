@@ -1,1 +1,268 @@
+STEP a:
+seren@hp MINGW64 ~
+$ git config --global user.name "Sude Ceren OZDEN"
+
+seren@hp MINGW64 ~
+$ git config --global user.email "sude.ceren.ozden@gmail.com"
+
+seren@hp MINGW64 ~
+$ git config --global core.editor "code --wait"
+
+seren@hp MINGW64 ~
+$ 
+
+STEP b:
+seren@hp MINGW64 ~
+$ git clone https://github.com/sudecerenozden/SOFT2101_HW-4/
+Cloning into 'SOFT2101_HW-4'...
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (4/4), done.
+
+seren@hp MINGW64 ~
+$ cd SOFT2101_HW-4
+
+seren@hp MINGW64 ~/SOFT2101_HW-4 (main)
+$ dir
+hwk4
+
+seren@hp MINGW64 ~/SOFT2101_HW-4 (main)
+$ ls -a
+./  ../  .git/  hwk4/
+
+seren@hp MINGW64 ~/SOFT2101_HW-4 (main)
+$ cd .git/
+
+seren@hp MINGW64 ~/SOFT2101_HW-4/.git (GIT_DIR!)
+$ ls -a
+./  ../  HEAD  config  description  hooks/  index  info/  logs/  objects/  packed-refs  refs/
+
+STEP c:
+# SOFT2101 HW #4
+
+The homework for SOFT2101
+
+## Description
+
+Ceren Sude Ozden and Erhan Ying ahve been decide to work in this homework, and create this repository.
+For now, there is only a text file in this repository.
+
+## Getting Started
+
+### Dependencies
+
+* There is no dependencies up to now.
+
+### Installing
+
+* Download the text file in your computer
+* Copy it anywhere you want
+
+### Executing program
+
+* Open the text file with your favorit editore.
+
+## Help
+
+Go google how to open a text file
+
+## Authors
+
+Sude Ceren Özden sude.ceren.ozden@gmail.com
+Erhan Ylgr ylgnerhan@gmail.com
+
+## Version History
+
+* 0.1
+    * Initial Release
+
+## License
+
+This project is licensed under nothing
+
+# The University
+Go => [The Department of Software Engineering of Işık University](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi)
+
+STEP d:
+seren@hp MINGW64 ~/SOFT2101_HW-4 (main)
+$ touch .gitignore
+
+seren@hp MINGW64 ~/SOFT2101_HW-4 (main)
+$ ls -a
+./  ../  .git/  .gitignore  hwk4/
+
+seren@hp MINGW64 ~/SOFT2101_HW-4 (main)
+$ nano .gitignore
+
+seren@hp MINGW64 ~/SOFT2101_HW-4 (main)
+$ cat .gitignore
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
+
+STEP e:
+seren@hp MINGW64 ~/SOFT2101_HW-4 (main)
+$ git branch feature-1
+
+seren@hp MINGW64 ~/SOFT2101_HW-4 (main)
+$ git checkout feature-1
+Switched to branch 'feature-1'
+
+seren@hp MINGW64 ~/SOFT2101_HW-4 (feature-1)
+$ cd hwk4/
+
+seren@hp MINGW64 ~/SOFT2101_HW-4/hwk4 (feature-1)
+
+STEP f:
+$ git add Program.java
+warning: in the working copy of 'hwk4/Program.java', LF will be replaced by CRLF the next time Git touches it
+
+seren@hp MINGW64 ~/SOFT2101_HW-4/hwk4 (feature-1)
+$ git commit -m "satisfying requirement one"
+[feature-1 f77371e] satisfying requirement one
+ 1 file changed, 20 insertions(+)
+ create mode 100644 hwk4/Program.java
+
+ seren@hp MINGW64 ~/SOFT2101_HW-4/hwk4 (feature-1)
+$ ls
+Program.class  Program.java  homework4.txt
+
+seren@hp MINGW64 ~/SOFT2101_HW-4/hwk4 (feature-1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+seren@hp MINGW64 ~/SOFT2101_HW-4/hwk4 (main)
+$ ls
+Program.class  homework4.txt
+
+STEP g:
+seren@hp MINGW64 ~/SOFT2101_HW-4/hwk4 (main)
+$ git merge feature-1
+Updating c469427..f77371e
+Fast-forward
+ hwk4/Program.java | 20 ++++++++++++++++++++
+ 1 file changed, 20 insertions(+)
+ create mode 100644 hwk4/Program.java
+
+STEP h:
+seren@hp MINGW64 ~/SOFT2101_HW-4/hwk4 (main)
+$ git branch feature-2
+
+STEP i:
+seren@hp MINGW64 ~/SOFT2101_HW-4/hwk4 (main)
+$ git branch feature-3
+
+STEP j:
+seren@hp MINGW64 ~/SOFT2101_HW-4/hwk4 (feature-2)
+$ git add Program.java
+
+seren@hp MINGW64 ~/SOFT2101_HW-4/hwk4 (feature-2)
+$ git commit -m "satisfying requirement change two"
+[feature-2 d371aa2] satisfying requirement change two
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+STEP k:
+seren@hp MINGW64 ~/SOFT2101_HW-4/hwk4 (feature-3)
+$ git add Program.java
+
+seren@hp MINGW64 ~/SOFT2101_HW-4/hwk4 (feature-3)
+$ git commit -m "satisfying requirement change three"
+[feature-3 7460668] satisfying requirement change three
+ 1 file changed, 2 insertions(+)
+
+STEP l:
+seren@hp MINGW64 ~/SOFT2101_HW-4/hwk4 (feature-3)
+$ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+seren@hp MINGW64 ~/SOFT2101_HW-4/hwk4 (main)
+$ git merge feature-2
+Updating f77371e..d371aa2
+Fast-forward
+ hwk4/Program.java | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+STEP m:
+seren@hp MINGW64 ~/SOFT2101_HW-4/hwk4 (main)
+$ git merge feature-3
+Auto-merging hwk4/Program.java
+CONFLICT (content): Merge conflict in hwk4/Program.java
+Automatic merge failed; fix conflicts and then commit the result.
+
+seren@hp MINGW64 ~/SOFT2101_HW-4/hwk4 (main|MERGING)
+$ git diff
+diff --cc hwk4/Program.java
+index 23d1ca8,089b776..0000000
+--- a/hwk4/Program.java
++++ b/hwk4/Program.java
+@@@ -12,9 -12,9 +12,15 @@@ public class Program
+      int num2 = sc.nextInt();
+
+      for (int i= num1+1; i<num2; i++){
+++<<<<<<< HEAD
+ +        if (i % 2 == 1) {
+ +          System.out.print(i+" ");
+ +        }
+++=======
++       if (i % 2 == 0) {
++         System.out.print(i+" ");
++       }
+++>>>>>>> feature-3
+      }
+      sc.close();
+   }
+
+seren@hp MINGW64 ~/SOFT2101_HW-4/hwk4 (main|MERGING)
+$ git merge feature-3
+fatal: You have not concluded your merge (MERGE_HEAD exists).
+Please, commit your changes before you merge.
+
+seren@hp MINGW64 ~/SOFT2101_HW-4/hwk4 (main|MERGING)
+$ git commit -m "satisfying requirement change four"
+[main 75bbf82] satisfying requirement change four
+
+seren@hp MINGW64 ~/SOFT2101_HW-4/hwk4 (main)
+$ git merge feature-3
+Already up to date.
+
+STEP n:
+seren@hp MINGW64 ~/SOFT2101_HW-4/hwk4 (main)
+$ git push origin main
+Enumerating objects: 22, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 24 threads
+Compressing objects: 100% (18/18), done.
+Writing objects: 100% (18/18), 2.19 KiB | 2.19 MiB/s, done.
+Total 18 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/sudecerenozden/SOFT2101_HW-4/
+   b6f25d4..0b7740f  main -> main
+
+STEP o:
 
