@@ -264,15 +264,43 @@ remote: Resolving deltas: 100% (4/4), done.
 To https://github.com/sudecerenozden/SOFT2101_HW-4/
    b6f25d4..0b7740f  main -> main
 
+seren@hp MINGW64 ~/SOFT2101_HW-4/hwk4 (main)
+$ git push origin feature-1
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'feature-1' on GitHub by visiting:
+remote:      https://github.com/sudecerenozden/SOFT2101_HW-4/pull/new/feature-1
+remote:
+To https://github.com/sudecerenozden/SOFT2101_HW-4/
+ * [new branch]      feature-1 -> feature-1
+
+seren@hp MINGW64 ~/SOFT2101_HW-4/hwk4 (main)
+$ git push origin feature-2
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'feature-2' on GitHub by visiting:
+remote:      https://github.com/sudecerenozden/SOFT2101_HW-4/pull/new/feature-2
+remote:
+To https://github.com/sudecerenozden/SOFT2101_HW-4/
+ * [new branch]      feature-2 -> feature-2
+
+seren@hp MINGW64 ~/SOFT2101_HW-4/hwk4 (main)
+$ git push origin feature-3
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'feature-3' on GitHub by visiting:
+remote:      https://github.com/sudecerenozden/SOFT2101_HW-4/pull/new/feature-3
+remote:
+To https://github.com/sudecerenozden/SOFT2101_HW-4/
+ * [new branch]      feature-3 -> feature-3
+
 STEP o:
-seren@AdaehprI9 MINGW64 ~/SOFT2101_HW-4/hwk4 (main)
+seren@hp MINGW64 ~/SOFT2101_HW-4/hwk4 (main)
 $ git add homework4.txt
 
 seren@hp MINGW64 ~/SOFT2101_HW-4/hwk4 (main)
 $ git commit -m "Last commit"
-[main 535df0f] Last commit
- 1 file changed, 267 insertions(+)
 
+seren@hp MINGW64 ~/SOFT2101_HW-4/hwk4 (main)
+$ git push origin main
 
-STEP p:
-https://github.com/sudecerenozden/SOFT2101_HW-4
